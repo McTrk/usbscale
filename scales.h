@@ -12,7 +12,7 @@
 //
 // **NSCALES** should be kept updated with the length of the list.
 //
-#define NSCALES 13
+#define NSCALES 14
 
 //
 // What is the number of the weighing result to show, as the first result may be incorrect (from the previous weighing)
@@ -29,6 +29,8 @@ uint16_t scales[NSCALES][2] = {\
     // USPS (Elane) PS311 "XM Elane Elane UParcel 30lb"
     {0x7b7c, 0x0100},
     // Stamps.com Stainless Steel 5 lb. Digital Scale
+    {0x2474, 0x2510},
+    // Stamps.com 25 lb. Digital Scale
     {0x2474, 0x0550},
     // Stamps.com Stainless Steel 35 lb. Digital Scale
     {0x2474, 0x3550},
